@@ -15,6 +15,7 @@ body {
 .banner {
   max-height: 500px;
   position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
@@ -22,12 +23,13 @@ body {
   bottom: 1.5rem;
   left: 10%;
   top: 0;
+  transform: translateX(-50%);
 
 }
 
 h2 {
   font-size: 3rem;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .banner-image {
@@ -41,4 +43,22 @@ h2 {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
