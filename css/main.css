@@ -1,0 +1,44 @@
+html {
+  box-sizing:border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 10%;
+  top: 0;
+
+}
+
+h2 {
+  font-size: 3rem;
+  font-style: bold;
+}
+
+.banner-image {
+  float: left;
+}
+
+.text-button {
+  float: right;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
